@@ -1,0 +1,89 @@
+// 1.Output
+
+document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerHTML = "Priti Jaju";
+document.querySelector(".side-bar .crayons-card .color-base-70").innerHTML = "I Write Code";
+
+// 2.Output
+const lists = document.querySelectorAll(".as-imagegrid-item");
+const resultArray = [];
+lists.forEach((listItem)=>{
+    const result = listItem.innerText.replace("Support", "")
+
+    console.log(result)
+});
+
+// 3.Output
+
+let element = document.querySelector(".accordion-homepage");
+let newFaq =  document.createElement("h3");
+newFaq.textContent = "My New FAQ";
+element.appendChild(newFaq);
+
+
+// 4.Output 
+
+let val = document.querySelector(".item--subtitle");
+val.innerText = "+91 6366266689";
+
+// 5.Output
+let val =  document.querySelectorAll(".diwali-deals-product-sale-btn").innerText = "Check out";
+console.log(val);
+
+// 6.Output
+const search = document.querySelector("._input_1f3oz_13");
+search.addEventListener("click", () => search.style.backgroundColor = "red" );
+
+// 7.Output
+let val =  document.querySelector(".search-input-field");
+val.value = "CSS";
+let form = document.getElementById("top-nav-search-form")
+function submitForm(){
+    form.submit()
+}
+submitForm();
+
+// 8.Output
+document.getElementById("SIvCob").innerHTML = "বাংলা  मराठी  ગુજરાતી  മലയാളം"
+
+// 9.Output
+let text = document.querySelector(".text-color-hero-gradient");
+text.style.fontFamily = "monospace";
+text.style.color = "red";
+
+// 10.Output
+let btn =  document.querySelector(".btn-cta-big .login-btn-text");
+btn.addEventListener("mouseover", () => btn.style.backgroundColor = "red");
+
+// 11.Output
+document.querySelector(".logo .icon").style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
+
+// 12.Output
+document.querySelector(".js-with-permission-fields .btn-primary").style.backgroundColor = "blue"
+
+// 13.Output
+document.querySelector(".text").innerHTML = "JSBOOTCAMP" ;
+
+// 14.Output
+let val =  document.querySelector('.HotDealsAll__Heading__2fIbe');
+val.style.fontSize = "80px";
+
+//  15.Output
+document.querySelector('.ps-title').style.textAlign = "right" ;
+
+// 16.Output
+let val = document.querySelector(".section-title_title__VEDfK").innerHTML = 'Start with Scratch'
+
+// 17.Output
+let now = new Date();
+document.querySelector(".btn-container").innerHTML =  now ;
+
+// 18.Output
+let val = document.querySelector(".p-footer");
+val.style.backgroundColor = "orange" ;
+
+// 19.Output
+document.querySelector(".logo").src;
+// 20
+
+let val = document.querySelector(".desc");
+val.style.color = "orange"; 
